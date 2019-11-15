@@ -15,5 +15,13 @@ public class TypeCasting {
         int intNumberThree = 23;
         double doubleNumberTwo = (double) intNumberThree;
         System.out.println("Int value after casting " + doubleNumberTwo);
+
+        String s1 = "12";
+        String s2 = "18";
+
+        int stringCasting = Integer.valueOf(s1);
+        int stringCastingTwo = Integer.parseInt(s2);
+        System.out.println("String value after casting : " + stringCasting);
+        System.out.println("Second string value after casting : " + stringCastingTwo);
     }
 }
