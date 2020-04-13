@@ -3,7 +3,7 @@ package polymoprhism;
 public class Main {
     public static void main(String[] args) {
 
-        // Person's
+        // Person's information is able to reach from employee
         Main test = new Main();
         Employee employee = new Employee();
         employee.setName("Gregory");
