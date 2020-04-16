@@ -1,0 +1,28 @@
+//
+// List interface is the child interface of Collection interface.
+// It inhibits a list type data structure in which we can store the ordered collection of objects.
+// It can have duplicate values.
+// List interface is implemented by the classes ArrayList, LinkedList, Vector, and Stack.
+//
+// Kendisine verilen elemani sirali sekilde tutar
+// Ayrica List interface sayesinde elemanlara index yolu ile eriselebilir.
+//
+// Methods of List
+//
+// add(index, Element), get(index), remove(index), set(index, Element), subList(from index, toIndex)
+// indexOf(element), lastIndexOf(element), listIterator(),
+// boolean hasNext(), boolean hasPrevious(), previousIndex(), nextIndex()
+//
+//
+
+
+        /*
+
+
+        List <data-type> list1= new ArrayList();
+        List <data-type> list2 = new LinkedList();
+        List <data-type> list3 = new Vector();
+        List <data-type> list4 = new Stack();
+
+
+         */
