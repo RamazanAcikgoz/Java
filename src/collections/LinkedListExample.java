@@ -1,5 +1,6 @@
 package collections;
-public class Main {
+
+public class LinkedListExample {
     public static void main(String[] args) {
 
     }

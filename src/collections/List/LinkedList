@@ -1,4 +1,3 @@
-package collections.List;
 //
 // It uses a doubly linked list internally to store the elements. It can store the duplicate elements.
 // It maintains the insertion order and is not synchronized. In LinkedList, the manipulation is fast because no shifting is required.
@@ -10,8 +9,3 @@ package collections.List;
 // Method of LinkedList
 //
 // addFirst(eleman), addLast(elemean), removeFirst(), removeLast(), getFirst(), getLast()
-public class LinkedList {
-    public static void main(String[] args) {
-
-    }
-}
