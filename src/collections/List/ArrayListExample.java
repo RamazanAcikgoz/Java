@@ -1,10 +1,28 @@
-package collections;
+package collections.List;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 
 public class ArrayListExample {
     public static void main(String[] args) {
+
+        // Example 1 :
+
+        ArrayList<String> newList = new ArrayList<>();
+        newList.add("Ramazan");
+        newList.add("Marta");
+        newList.add("Alex");
+
+        Iterator itr = newList.iterator();
+        while (itr.hasNext()){
+            System.out.println(itr.next());
+        }
+
+
+
+
+
+        // Example 2 :
 
         String[] name ={"Ali","Veli","Deli","Ayse","Fatma","Duriye","Nuriye","Deli"};
         String[] surname = {"Aliye","Veli","Deliye","Aysegul","Nuriye"};
@@ -31,10 +49,5 @@ public class ArrayListExample {
         for (String s : nameList){
             System.out.println(s + " ");
         }
-
-
-
-
-
     }
 }
