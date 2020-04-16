@@ -1,0 +1,6 @@
+//
+// DequeExample interface extends the Queue interface.
+// In DequeExample, we can remove and add the elements from both the side.
+// DequeExample stands for a double-ended queue which enables us to perform the operations at both the ends.
+//
+// Deque d = new ArrayDeque();

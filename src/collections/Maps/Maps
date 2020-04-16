@@ -1,5 +1,3 @@
-package collections.Maps;
-
 //                                     MAP (INTERFACE)
 //
 //        SortedMap(INTERFACE)                          //HashMap(CLASS)
@@ -17,8 +15,3 @@ package collections.Maps;
 // Iterator(), keySet(), values(), entrySet(k,v)
 // hasNext () :
 // next() :
-public class Maps {
-    public static void main(String[] args) {
-
-    }
-}
