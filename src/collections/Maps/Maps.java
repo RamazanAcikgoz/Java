@@ -1,4 +1,4 @@
-package collections;
+package collections.Maps;
 
 //                                     MAP (INTERFACE)
 //
