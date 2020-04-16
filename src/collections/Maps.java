@@ -10,5 +10,15 @@ package collections;
 //      SortedMap extends MAP                               //HashMap implements MAP
 //    TreeMap implements SortedMap                       //LinkedHashMap extends HashMap
 //                                                             //HashTable implements MAP
+//
+//      Some methods of MAP
+//
+// get(key) , size(), clear(), put(key, value), contains(value), remove(key)
+// Iterator(), keySet(), values(), entrySet(k,v)
+// hasNext () :
+// next() :
 public class Maps {
+    public static void main(String[] args) {
+
+    }
 }
