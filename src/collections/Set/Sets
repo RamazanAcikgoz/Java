@@ -1,4 +1,3 @@
-package collections.Set;
 //
 // Kendisine verilen elemanlarin her birinden sadece bir tanesini tutar.
 // Tek kosul birbirinin ayni iki elemani ayni collection uzerinde bulundurmaz
@@ -8,8 +7,8 @@ package collections.Set;
 //
 // Bu INTERFACE'i kullanan tum sub-classlar bu kurala uymak zorundadir
 //
-public class Sets {
-    public static void main(String[] args) {
-
-    }
-}
+//
+//
+// Set<data-type> s1 = new HashSet<data-type>();
+// Set<data-type> s2 = new LinkedHashSet<data-type>();
+// Set<data-type> s3 = new TreeSet<data-type>();

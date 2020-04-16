@@ -1,12 +1,6 @@
-package collections.Set;
 //
 // Like HashSet, It also contains unique elements. It maintains the insertion order and permits null elements.
 //
 // Elemanlarin eklenmesinin sirali olmasini saglar. HashSet kadar hizlidir.
 // Collection eklenme sirasina gore tutmaktadir. Siralama onemli degilse HashSet onerilir.
 //
-public class LinkedHashSet {
-    public static void main(String[] args) {
-
-    }
-}
