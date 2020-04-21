@@ -1,0 +1,15 @@
+// InputStream reader = sunucuSocket.getInputStream();
+// OutputStream writer = sunucuSocket.getOutputStream();
+//
+// DataOutputStream,DataInputStream,BufferedReader,PrintWriter()
+// akimlarini kullanarak double ya da int gibi tiplerde gonderilebilir.
+//
+// DataOutputSteam reader = new DataOutputStream(sunucuSocket.getOutputStream);
+// DataInputStream writer = new DataInputStream(sunucuSocket.getInputStream);
+//
+// Bu tanimlamada server client'den reader.readDouble(); methodu ile Double tipinde data almakta
+// kendine ait islemleri bitirdikten sonra writer.writeDouble(); methodu ile sonucu tekrar cliente gondermektedir.
+//
+// Server a baglanan clientin adresi ve ismi Inet Class (ip adresslerini temsil eden siniftir).
+// getHostName() = client ismini verir.
+// getHostAdress() = client adresini verir.
